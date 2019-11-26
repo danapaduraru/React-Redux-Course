@@ -10,8 +10,7 @@ Code I wrote following a tutorial for learning Redux and React.
 
 ![Redux Workflow Diagram](https://i.ibb.co/CtgGYnF/Screenshot-6.png)
 
-View = your react components
-Store = your state, sends your state down to your components
-dispatch = send off to a destination with a purpose
-Reducers = pure functions that specify how the application state should change in respond to the actions
-            the reducers respond with that new state
+- View = your react components
+- Store = your state, sends your state down to your components
+- dispatch = send off to a destination with a purpose
+- Reducers = pure functions that specify how the application state should change in respond to the actions. The reducers respond with that new state.
