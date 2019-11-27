@@ -21,3 +21,22 @@ https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snipp
 
 - rcc
 - rfc
+
+npm i redux react-redux redux-thunk 
+
+- redux-thunk = middleware for redux which allows us to directly access the dispatch method so that we can make asynchronous calls from our actions
+
+Starting with Redux
+
+1. We need to bring in the provider in the main App file - the provider is actually a React component 
+
+2. We need to wrap everything inside that provider component.
+
+The provider takes what's called the store and the store holds the state.
+
+A store holds the whole state tree of your application.
+
+The only way to change the state inside is to dispatch an action on it.
+
+You create a store using the createStore function.
+
